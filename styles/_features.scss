@@ -1,0 +1,80 @@
+.features{
+    display: flex;
+    flex-direction: column;
+margin: 0 auto;
+    border: 2px rgb(200, 255, 0) solid;
+
+}
+
+.features__wapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__wapper-pretittle{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: #9DFF3A;
+}
+
+.features__wapper-tittle{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+text-transform: capitalize;
+color: white;
+}
+
+.features__wapper-text{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+text-align: center;
+color: #999999;
+}
+
+.features__cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.features__cards-Scalability{
+    border-radius: 12px;
+padding: 48px 36px;
+width: 384px;
+height: 264px;
+background: rgba(255, 255, 255, 0.04);
+display: block;
+justify-content: center;
+align-items: center;
+}
+
+.features__cards-Decentralisation{
+    border-radius: 12px;
+padding: 48px 36px;
+width: 384px;
+height: 264px;
+background: rgba(255, 255, 255, 0.04);
+display: block;
+justify-content: center;
+align-items: center
+}
+
+.features__cards-Connectivity{
+    border-radius: 12px;
+padding: 48px 36px;
+width: 384px;
+height: 264px;
+background: rgba(255, 255, 255, 0.04);
+display: block;
+justify-content: center;
+align-items: center
+}

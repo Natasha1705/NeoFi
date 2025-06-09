@@ -1,0 +1,17 @@
+@import '_header';
+@import '_decentralised';
+@import '_partners';
+@import '_features';
+@import '_statistics';
+@import '_feature';
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #0F0F0F;
+        margin: 0 auto;
+        width: 1440px;
+
+}

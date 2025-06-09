@@ -1,0 +1,49 @@
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.feature__block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.feature-wapper{
+    border-radius: 20px;
+padding: 30px 20px;
+width: 622px;
+height: 156px;
+background: #0F0F0F;
+}
+
+.feature-wapper-pretittle{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: #9DFF3A;
+}
+
+.feature-wapper-tittle{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+text-transform: capitalize;
+color: white;
+}
+
+.feature-wapper-text{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+text-align: center;
+color: #999999;
+}

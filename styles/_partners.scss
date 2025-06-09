@@ -1,0 +1,36 @@
+// .partners{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// padding: 40px 0px;
+
+// height: 172px;
+// background: #0F0F0F;
+// border: 1px rgb(149, 209, 53) solid;
+// }
+
+// .partners-tittle{
+// font-family: var(--font-family);
+// font-weight: 400;
+// font-size: 16px;
+// text-align: center;
+// color: #999999;
+// }
+
+.partners{
+    display: flex;
+    flex-direction: column;
+
+    border: 1px red solid;
+    justify-content: stretch;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.partners-tittle{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #999999;
+}
